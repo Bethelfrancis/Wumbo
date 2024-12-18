@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button {
+    @apply font-medium bg-white text-button-color px-4 py-1 rounded duration-500 hover:drop-shadow-lg
+}
+
+.buttons {
+    @apply font-medium px-4 py-3 duration-700 hover:shadow-lg gap-4 mr-4
+}
+
+.con-btn {
+    @apply font-semibold rounded-full py-[6px] px-4 text-button-color duration-700 hover:shadow-md
+}
+
+.top-background {
+    @apply relative min-h-[700px] bg-[url('./images/top-bg.png')] bg-no-repeat bg-right lg:bg-[length:300px_700px] bg-[length:550px_700px]
+}
+
+.for-background {
+    @apply flex flex-col items-center justify-center min-h-[600px] lg:mx-5 mx-12 gap-12 py-10 bg-[url('./images/for-bg.png')] bg-no-repeat bg-left-top bg-[length:100px_400px] lg:bg-[length:100px_300px]
+}
+
+/* .nav-content {
+    @apply lg:flex-col lg:bg-[#C6DBFF] lg:absolute lg:top-0 lg:right-[-100%] lg:w-3/4 lg:h-[100vh] lg:items-center lg:justify-center
+} */
